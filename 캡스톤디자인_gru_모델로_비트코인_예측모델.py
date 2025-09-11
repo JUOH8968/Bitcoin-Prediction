@@ -81,8 +81,8 @@ x_train.shape, y_train.shape, x_test.shape, y_test.shape
 """## 1-3. GRU 모델 생성"""
 
 # 모델 생성
-es = EarlyStopping(monitor= 'val_loss', mode='min', verbose=1, patience=10)
-  # 검증손실이 10번연속 줄지않으면 학습중단 , verbose=1 :자세히출력, 0;출력x , 2:함축적인정보만 출력
+es = EarlyStopping(monitor= 'val_loss', mode='min', verbose=1, patience=5)
+  # 검증손실이 5번연속 줄지않으면 학습중단 , verbose=1 :자세히출력, 0;출력x , 2:함축적인정보만 출력
 
 mc= ModelCheckpoint('best_model.h5', monitor='val_loss', mode='min', verbose=1,save_best_only=True)
   # 검증손실이 가장 작을때의 모델만 저장

@@ -23,5 +23,5 @@
  4. 1년 혹은 100일 기간으로종가예측해보기
 
 
-# 태블로(Tableau) 종가 시각화 ( 25년 10월 01일 기준 )
+### 태블로(Tableau) 종가 시각화 ( 25년 10월 01일 기준 )
 https://public.tableau.com/app/profile/juoh.hong/viz/_25_10_01/2

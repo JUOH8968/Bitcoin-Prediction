@@ -22,7 +22,8 @@
  3. 데이터 증강기법을 활용하여 4년마다반감기활용
  4. 1년 혹은 100일 기간으로종가예측해보기
 
-
+## 비트코인 프로젝트 정리
+https://data8968.tistory.com/12
 
 ### 태블로(Tableau) 종가 시각화 ( 25년 10월 01일 기준 )
 https://public.tableau.com/app/profile/juoh.hong/viz/_25_10_01/2
